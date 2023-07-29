@@ -1,0 +1,1 @@
+docker run -d --name ssda_db -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=ssda-dev -p 54319:5432 postgres:14
